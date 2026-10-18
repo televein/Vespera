@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vespera – Indian Agri Value-Added Products for Export</title>
+<meta name="description" content="Vespera exports processed and value-added agricultural products from India to buyers around the world.">
+<link rel="icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="#top" class="brand" aria-label="Vespera home"><img src="logo.png" alt="Vespera"></a>
+  <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav id="nav" class="nav">
+    <a href="#products">Products</a>
+    <a href="#why">Why Vespera</a>
+    <a href="#process">How we work</a>
+    <a href="#contact" class="nav-cta">Send an enquiry</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-text">
+      <h1>From Indian farms to your shelf, ready to sell.</h1>
+      <p>Vespera exports processed and value-added agricultural products from India: spices, pickles, pulps, dehydrated vegetables, millet foods and more. Packed to your specification and shipped with the paperwork in order.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-gold">Request a quote</a>
+        <a href="#products" class="btn btn-line">See what we export</a>
+      </div>
+    </div>
+    <ul class="hero-tags" aria-label="Product groups">
+      <li>Spice blends</li><li>Pickles &amp; chutneys</li><li>Fruit pulps</li>
+      <li>Dehydrated vegetables</li><li>Millet foods</li><li>Roasted nuts</li>
+      <li>Jaggery products</li><li>Ready-to-cook mixes</li>
+    </ul>
+  </section>
+
+  <section id="products" class="section">
+    <h2>What we export</h2>
+    <p class="lead">Value-added means the product leaves India cleaned, processed and packed, not as raw commodity. Tell us what your market needs and we will source and process to match.</p>
+    <div class="product-grid">
+      <article><h3>Spices &amp; masalas</h3><p>Whole and ground spices, custom masala blends, in retail packs or bulk.</p></article>
+      <article><h3>Pickles &amp; chutneys</h3><p>Mango, lime, mixed vegetable and regional styles, in jars or pouches.</p></article>
+      <article><h3>Fruit pulps &amp; purees</h3><p>Mango, guava, papaya and more, processed for beverage and dessert makers.</p></article>
+      <article><h3>Dehydrated vegetables</h3><p>Onion, garlic, ginger, tomato and mixed flakes or powders for food manufacturers.</p></article>
+      <article><h3>Millet &amp; grain products</h3><p>Millet flours, flakes, snacks and ready mixes for health-focused shelves.</p></article>
+      <article><h3>Nuts, jaggery &amp; sweeteners</h3><p>Roasted cashew, jaggery powder and blocks, and traditional sweet ingredients.</p></article>
+    </div>
+    <p class="note">Don't see your product? Ask us. Our range depends on what buyers need.</p>
+  </section>
+
+  <section id="why" class="section section-dark">
+    <h2>Why buyers work with Vespera</h2>
+    <div class="why-grid">
+      <div><h3>Packed to your spec</h3><p>Private label, pack size and labelling in your language and format.</p></div>
+      <div><h3>Quality checks before shipping</h3><p>Samples for approval first, then inspection of the batch before it leaves.</p></div>
+      <div><h3>Export paperwork handled</h3><p>Invoices, packing lists, certificate of origin and other documents your country requires.</p></div>
+      <div><h3>One point of contact</h3><p>You talk to us from first enquiry to delivery, with updates at each stage.</p></div>
+    </div>
+  </section>
+
+  <section id="process" class="section">
+    <h2>How an order works</h2>
+    <ol class="steps">
+      <li><h3>Enquiry</h3><p>Tell us the product, quantity and destination.</p></li>
+      <li><h3>Samples &amp; quote</h3><p>We send samples and a price with terms.</p></li>
+      <li><h3>Production &amp; checks</h3><p>Processing, packing and quality inspection.</p></li>
+      <li><h3>Shipping &amp; documents</h3><p>Booking, paperwork and tracking to your port.</p></li>
+    </ol>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div>
+      <h2>Send us an enquiry</h2>
+      <p class="lead">Share what you are looking for and we will reply with availability and a quote.</p>
+      <p class="mail">Email us directly:<br><a href="mailto:vespera.televein@gmail.com">vespera.televein@gmail.com</a></p>
+    </div>
+    <form id="enquiry" novalidate>
+      <label>Your name<input name="name" type="text" autocomplete="name" required></label>
+      <label>Company<input name="company" type="text" autocomplete="organization"></label>
+      <label>Country<input name="country" type="text" autocomplete="country-name" required></label>
+      <label>Your email<input name="email" type="email" autocomplete="email" required></label>
+      <label>Products and quantity needed<textarea name="message" rows="4" required></textarea></label>
+      <p class="form-msg" role="status" aria-live="polite"></p>
+      <button type="submit" class="btn btn-gold">Open enquiry in my email app</button>
+    </form>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <img src="logo.png" alt="Vespera">
+  <p>Exporting Indian agri value-added products worldwide.</p>
+  <p><a href="mailto:vespera.televein@gmail.com">vespera.televein@gmail.com</a></p>
+  <p class="copy">© <span id="year"></span> Vespera. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
